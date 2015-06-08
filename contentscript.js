@@ -29,7 +29,12 @@
   }
 
   function showUnread() {
-    alert("Here are your unread emails")
+    var filterInput, searchButton
+    filterInput = document.getElementById('gbqfq')
+    originalValue = filterInput.value
+    filterInput.value = "is:unread "+originalValue
+    searchButton = document.getElementById('gbqfb')
+    searchButton.click()
   }
 
   function main() {
