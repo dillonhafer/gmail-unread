@@ -19,12 +19,12 @@
   }
 
   function showUnread() {
-    var filterInput, searchButton
-    filterInput = document.getElementById('gbqfq')
-    originalValue = filterInput.value
-    filterInput.value = "is:unread "+originalValue
-    searchButton = document.getElementById('gbqfb')
-    searchButton.click()
+    var filter, originalValue, searchButton, newValue
+    filter        = document.getElementById('gbqfq')
+    originalValue = filter.value
+    newValue      = "is:unread " + originalValue.replace("is:unread ", "")
+    filter.value  = newValue
+    document.getElementById('gbqfb').click()
   }
 
   function addButtons() {
