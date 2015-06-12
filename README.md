@@ -2,7 +2,7 @@
 
 ## Installing
 
-https://chrome.google.com/webstore/detail/kikimasu/niampljeillbljnabimbieoiddhmboop
+https://chrome.google.com/webstore/detail/gmail-unread/fnjpldipmbkkjobnhfhdngjljhlabieb
 
 ## About
 
